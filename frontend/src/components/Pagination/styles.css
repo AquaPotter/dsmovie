@@ -21,7 +21,7 @@
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +30,11 @@
 }
 
 .dsmovie-pagination-button svg {
-    filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
+    filter: brightness(0) saturate(0) invert(40) sepia(100%) saturate(7395%) hue-rotate(234deg) brightness(50%) contrast(90%);
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #c2c2c2;
+    border: 1px solid #C2C2C2;
     cursor: unset;
 }
 
@@ -46,6 +46,7 @@
     margin: 0;
     font-size: 12px;
     color: var(--color-primary);
+    font-weight: bold;
 }
 
 .dsmovie-flip-horizontal {
